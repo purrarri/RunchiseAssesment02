@@ -2,7 +2,7 @@
 
 Previously already completed the assessment as in the following link :
 
-[Q1 : git@gist.github.com:217dbaa5f5fbe21e18959603f057daf8.git](https://gist.github.com/purrarri/217dbaa5f5fbe21e18959603f057daf8)
+[Q1 : https://gist.github.com/8faf02b604346b84aaa1a0dd97cb8dc7.git](https://gist.github.com/purrarri/8faf02b604346b84aaa1a0dd97cb8dc7)
 
 
 ```
@@ -45,11 +45,11 @@ env: {
 
 To ensure a well-organized structure, I have split the project into three main folders.
 
-Feature: In this folder, I outline the test scenarios and steps in Gherkin/Cucumber format. It describes the application's behavior in a structured way, making it easier to understand and maintain test cases. Feature file represents a specific feature of the application under test and contains scenarios and corresponding steps.
+Feature: In this folder, I outline the test scenarios and steps in Gherkin/Cucumber format. 
 
-Pages: This folder houses the Page Object Model (POM) files. Each page object represents a page or a component of the application. Within these files, I declare the getters and setters for the elements present on those pages. This approach enhances the maintainability of the tests, as any changes to the application's UI can be localized within the corresponding page object, making the test suite more dynamic and adaptable.
+Pages: This folder houses the Page Object Model (POM) files. 
 
-Step Definitions: The step_definitions folder contains the implementation of each step defined in the feature files. Here, I write the actual code that interacts with the application to execute the tests. These step definitions act as a bridge between the Gherkin scenarios and the Cypress test scripts. By separating the step definitions from the feature files, I ensure a clean and modularized code structure, making it easier to manage and update test cases.
+Step Definitions: The step_definitions folder contains the implementation of each step defined in the feature files.
 
 Overall, this project structure and organization help maintain clarity, reusability, and scalability of the test suite. The BDD approach using Gherkin/Cucumber enhances collaboration between team members and stakeholders by providing a common language to describe the application's behavior. The POM pattern for the pages ensures that any UI changes can be accommodated efficiently, and the step definitions separate the test logic from the scenario descriptions, promoting maintainability and readability of the test code.
 
@@ -81,10 +81,11 @@ GUI report
 
 ![run completed](completed.png)
 
-As in the following another report by screenshot and video, also stored in allure-result
+![Report](cypress/videos/mainMenu.feature.mp4)
 
 
 ## Findings
 
-1. 
+1. There is a slight different behaviour of the following app when run with browser by loading cache or not, so assume each running the script will start as in clear session or storage.
+
 # RunchiseAssesment02
