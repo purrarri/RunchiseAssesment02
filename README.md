@@ -1,4 +1,4 @@
-# BDD + Cypress Web Automation
+# RunchiseAssesment02
 
 Previously already completed the assessment as in the following link :
 
@@ -24,7 +24,6 @@ Automation written in Javascript leveraging Cypress, Gherkin, allure as reportin
 ## Prerequisites
 
 - Node.js is installed on your local machine
-- ** In order to successfully run all the scenarios, make sure to create a json file called "cypress.env.json"**. Here's how the file content should look like:
 
 To adjust browser location permission by default, I added these folllowing config :
 
@@ -79,13 +78,22 @@ GUI report
 
 ![npx cypress open](1.png)
 
+
+![npm run headless ](2.png)
+
 ![run completed](completed.png)
 
-![Report](cypress/videos/mainMenu.feature.mp4)
+The following report also available in allure as in run by headless.
+![Report](assetmd/mainMenu.feature.gif)
 
 
 ## Findings
 
 1. There is a slight different behaviour of the following app when run with browser by loading cache or not, so assume each running the script will start as in clear session or storage.
 
-# RunchiseAssesment02
+2. The following workaround that provided to mocking geolocation so able to custom the lat and long value.
+```
+npm i cypress-visit-with-custom-geolocation
+```
+
+
