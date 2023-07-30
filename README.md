@@ -4,8 +4,8 @@ Previously already completed the assessment as in the following link :
 
 [Q1 : git@gist.github.com:217dbaa5f5fbe21e18959603f057daf8.git](https://gist.github.com/purrarri/217dbaa5f5fbe21e18959603f057daf8)
 
-Navigate to
 
+```
 Q2 The scenario test:
         1. Open website https://wetwo.id/
         2. When loading the page, you will be asked to allow browser location permission, choose Yes
@@ -14,7 +14,7 @@ Q2 The scenario test:
         5. Add that product twice to the cart, you will see a floating button with the total amount of 2 selected products, click that floating button to go to cart page
         6. Make sure the selected products are shown correctly in the cart page
         7. In the cart page, remove just 1 qty from the selected product and click the product name or product image to show up the product detail popup.
-
+```
 Automation written in Javascript leveraging Cypress, Gherkin, allure as reporting and POM (Page Object Model).
 
 ## Test Environments
